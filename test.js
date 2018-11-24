@@ -139,4 +139,4 @@ test('error', () => {
   expect(getErr('2e-a')).toBe('invalid expression: 2e-a');
   expect(getErr('1 === 1 ? true')).toBe('parse expression error: 1 === 1 ? true');
   expect(getErr('1 === 1 ? true ;')).toBe('parse expression error: 1 === 1 ? true ;');
-})
+});
