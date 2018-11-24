@@ -1,0 +1,35 @@
+{
+  "name": "expr-parser",
+  "version": "1.0.0",
+  "description": "this is a simple javascript expression parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test.js --silent --bail",
+    "coverage": "jest ./test.js --coverage --coverageReporters=text-lcov | coveralls"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "index.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuneAndGreen/expr-parser.git"
+  },
+  "keywords": [
+    "javascript",
+    "expression",
+    "parser"
+  ],
+  "author": "june_01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuneAndGreen/expr-parser/issues"
+  },
+  "homepage": "https://github.com/JuneAndGreen/expr-parser#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "jest": "^23.6.0"
+  }
+}
