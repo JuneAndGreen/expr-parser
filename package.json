@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest ./test.js --silent --bail",
+    "coverage-local": "jest ./test.js --coverage --bail",
     "coverage": "jest ./test.js --coverage --coverageReporters=text-lcov | coveralls"
   },
   "jest": {
