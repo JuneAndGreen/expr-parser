@@ -17,7 +17,7 @@ npm install --save expr-parser
 
 ## 使用
 
-```
+```javascript
 const Expression = require('expr-parser');
 
 const exprCalc = new Expression('a.value + 12 - (2 * 14 / 4)').parse();
