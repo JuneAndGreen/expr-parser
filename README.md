@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/npm/v/expr-parser.svg?style=flat)](https://www.npmjs.org/package/expr-parser)
 [![](https://img.shields.io/travis/JuneAndGreen/expr-parser.svg)](https://github.com/JuneAndGreen/expr-parser)
-[![](https://img.shields.io/npm/l/expr-parser.svg)](https://github.com/JuneAndGreen/expr-parser)
+[![](https://img.shields.io/github/license/JuneAndGreen/expr-parser.svg)](https://github.com/JuneAndGreen/expr-parser)
 [![](https://img.shields.io/coveralls/github/JuneAndGreen/expr-parser.svg)](https://github.com/JuneAndGreen/expr-parser)
 
 ## 简介
